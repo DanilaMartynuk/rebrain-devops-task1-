@@ -1,6 +1,6 @@
 # NGNIX based web application
 
-<img src="https://github.com/DanilaMartynuk/rebrain-devops-task1-/nginx.png" align="right"
+<img src="https://github.com/DanilaMartynuk/rebrain-devops-task1-/blob/main/nginx.png" align="right"
      alt="nginx logo" width="150" height="150">
 
 Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. The software was created by Igor Sysoev and publicly released in 2004. Nginx is free and open-source software, released under the terms of the 2-clause BSD license.
@@ -22,7 +22,7 @@ Formerly, adding third-party modules to Nginx required recompiling the applicati
 Nginx is generally considered to be less stable on Windows Server than it is on Linux, while Apache has equal support for both.
 
 <p align="center">
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.keycdn.com%2Fsupport%2Fnginx-vs-apache&psig=AOvVaw07i_i8tAlt0jiLCBbQTX8e&ust=1666636729794000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCIjI7Of_9voCFQAAAAAdAAAAABAI"
+<img src="https://github.com/DanilaMartynuk/rebrain-devops-task1-/blob/main/nginxvsapache.png"
   alt="Nginx vs apache"
 </p>
 
@@ -33,7 +33,7 @@ Nginx is generally considered to be less stable on Windows Server than it is on 
 Directives placed in the configuration file outside of any contexts are considered to be in the main context. The events and http directives reside in the main context, server in http, and location in server.
 
 <sub> config structure example </sub>
-''' 
+``` 
 http{
 	server {
 	    location / {
@@ -45,7 +45,7 @@ http{
 	    }
 	}
 }
-'''
+```
 
 
 ## Who Uses *Nginx*
